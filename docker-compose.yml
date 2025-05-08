@@ -10,7 +10,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql  # Mount dữ liệu vào volume "mysql_data"
     restart: always
-
+    
   backend:
     build:
       context: ./server
